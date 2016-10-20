@@ -126,10 +126,10 @@ Header
     header .wp a.logo { height: 100%; line-height: 70px; margin: 0 22px 0 0; }
     .header-nav { margin-left: 30px; height: 70px; position: relative; }
     .header-nav .top-bar-li { position: relative; float: left; font-size: 16px; }
-    .header-nav .top-bar-li i { display: block; width: 9px; height: 5px; background-position: -16px -9px; position: absolute; z-index: 2; top: 50%; right: 5px; margin-top: -3px; transform: rotate(-90deg); -ms-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); }
+    .header-nav .top-bar-li i { display: none; width: 9px; height: 5px; background-position: -16px -9px; position: absolute; z-index: 2; top: 50%; right: 5px; margin-top: -3px; transform: rotate(-90deg); -ms-transform: rotate(-90deg); -moz-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -o-transform: rotate(-90deg); }
     .header-nav .top-bar-li i.on { transform: rotate(0deg); -ms-transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -o-transform: rotate(0deg); }
-    .header-nav .top-bar-li a { display: block; line-height: 50px; color: #5f5f5f; margin: 10px 0; padding: 0 15px; }
-    .header-nav .top-bar-bg { display: block; position: absolute; top: 0; left: 0; height: 3px; background: #f99723; z-index: 1; }
+    .header-nav .top-bar-li a { display: none; line-height: 50px; color: #5f5f5f; margin: 10px 0; padding: 0 15px; }
+    .header-nav .top-bar-bg { display: none; position: absolute; top: 0; left: 0; height: 3px; background: #f99723; z-index: 1; }
     .nav-login { padding: 12px 13px 0; position: relative; }
     .nav-login .logged_in { color: #5f5f5f; font-size: 12px; }
     .logged_in .welcome { margin: 3px 0; min-width: 100px; }
@@ -427,7 +427,7 @@ Footer
     footer .container .left .f-logo { margin-bottom: 6px; }
     footer .container a { float: left; }
     footer .container .down { font-size: 12px; display: table; text-transform: uppercase; }
-    footer .container .down a { display: block; width: 20px; height: 20px; margin: 0 3px; }
+    footer .container .down a { display: none; width: 20px; height: 20px; margin: 0 3px; }
     footer .container .down a.fb { background-position: -35px 0; }
     footer .container .down a.tw { background-position: -56px 0; }
     footer .container .down a.ytb { background-position: -78px 0; }
