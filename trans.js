@@ -1,3 +1,32 @@
+var title = document.head.querySelector('title').innerHTML;
+if (title == 'Change Password - Play free online games') {
+	document.title = 'Изменить пароль';
+}
+if (title == 'Basic information - Play free online games') {
+	document.title = 'Основная информация';
+}
+if (title == 'Login or Register Play free online games') {
+	document.title = 'Вход и регистрация';
+}
+if (title == 'Basic information - Play free online games') { 
+	document.title = 'Основная информация';
+}
+if (title == 'RECHARGE - Play free online games ') { 
+	document.title = 'Пополнить счёт';
+}
+if (title == 'Transaction history - Play free online games') { 
+	document.title = 'История пополнений';
+}
+if (title == 'Gifts - Play free online games') { 
+	document.title = 'Подарки и награды';
+}
+if (title == 'Ticket Create - Play free online games') {
+	document.title = 'Создать тикет';
+}
+if (title == 'Ticket Lists - Play free online games') {
+	document.title = 'Тикеты';
+}
+
 (function () {
     function findAndReplace(searchText, replacement, searchNode) {
         if (!searchText || typeof replacement === 'undefined') {
