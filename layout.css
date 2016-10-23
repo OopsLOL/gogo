@@ -121,7 +121,7 @@ Header Float Background
 Header
 
 --------------------------------*/
-    header {display: none !important;}
+    header { display: none !important; }
     header { background: #f6f6f6; height: 70px; position: relative; z-index: 2; }
     header .wp:before { display: table; content: ''; }
     header .wp a.logo { height: 100%; line-height: 70px; margin: 0 22px 0 0; }
