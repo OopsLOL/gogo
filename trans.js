@@ -141,7 +141,7 @@ if (title == 'Ticket Lists - Play free online games') {
          "Old Password"                            : "Старый пароль",
          "New Password"                            : "Новый пароль",
          "Confirm Password"                        : "Подтвердите пароль",
-         "SUBMIT"                                  : "Получить",
+         "SUBMIT"                                  : "Сохранить",
          "Submit"                                  : "Отправить",
          "Solved & Rate"                           : "Оценить",
          "The conversation is closed"              : "Тикет закрыт",
