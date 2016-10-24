@@ -27,6 +27,24 @@ if (title == 'Ticket Lists - Play free online games') {
 	document.title = 'Тикеты';
 }
 
+       document.getElementsByName('oldPassword')[0].placeholder = 'Введите старый пароль';
+       document.getElementsByName('newPassword')[0].placeholder = 'Введите новый пароль';
+       document.getElementsByName('newPassword2')[0].placeholder = 'Введите повторно новый пароль';
+       document.querySelector('label[for=\"register-password\"]').textContent = 'Пароль'; 
+
+	document.getElementById('reg_account').placeholder = 'Укажите почтовый адрес';
+	document.getElementById('user_name').placeholder = 'Укажите почтовый адрес';
+	document.getElementById('user_pwd').placeholder = 'Введите пароль';
+	document.getElementById('reg_pwd').placeholder = 'Введите пароль';
+	document.getElementById('reg_pwd2').placeholder = 'Подтвердите пароль';
+	document.getElementById('reg_verify').placeholder = 'Код';
+	document.getElementById('email').placeholder = 'Укажите ваш@почтовый.ящик';
+	document.getElementById('subject').placeholder = 'Укажите тему сообщения';
+	document.getElementById('message').placeholder = 'Пожалуйста, укажите как можно больше деталей, чтобы мы могли лучше помочь вам!';
+
+	document.querySelector('span#role_name_tip').innerHTML = 'Выберите игрового персонажа';
+        document.getElementById('del').title = 'Удалить изображение';
+	document.getElementById('rate_message').placeholder = 'Пожалуйста, оставьте комментарий о качестве поддержки (только английский).';
 (function () {
     function findAndReplace(searchText, replacement, searchNode) {
         if (!searchText || typeof replacement === 'undefined') {
