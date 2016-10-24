@@ -30,7 +30,7 @@ if (title == 'Ticket Lists - Play free online games') {
        document.getElementsByName('oldPassword')[0].placeholder = 'Введите старый пароль';
        document.getElementsByName('newPassword')[0].placeholder = 'Введите новый пароль';
        document.getElementsByName('newPassword2')[0].placeholder = 'Введите повторно новый пароль';
-       document.querySelector('label[for=\"register-password\"]').textContent = 'Пароль'; 
+       //document.querySelector('label[for=\"register-password\"]').textContent = 'Пароль'; 
 
 	document.getElementById('reg_account').placeholder = 'Укажите почтовый адрес';
 	document.getElementById('user_name').placeholder = 'Укажите почтовый адрес';
