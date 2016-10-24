@@ -148,6 +148,7 @@ if (title == 'Ticket Lists - Play free online games') {
          "View Case"                               : "Просмотр тикета",
          "Case list"                               : "Тикеты",
          "Replied"                                 : "Ответили",
+	 "Closed"                                  : "Закрыт",
          "Pending"                                 : "В ожидании",
          "Account"                                 : "Аккаунт",
          "My Profile"                              : "Мой профиль",
@@ -176,7 +177,7 @@ if (title == 'Ticket Lists - Play free online games') {
         for(var t in ts) {
             findAndReplace(t,ts[t]);
         }
-       setTimeout(translate, 1000);
+       setTimeout(translate, 100);
     }
-    setTimeout(translate, 1000);
+    setTimeout(translate, 100);
 })();
