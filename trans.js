@@ -177,7 +177,7 @@ if (title == 'Ticket Lists - Play free online games') {
         for(var t in ts) {
             findAndReplace(t,ts[t]);
         }
-       setTimeout(translate, 100);
+       setTimeout(translate, 0);
     }
-    setTimeout(translate, 100);
+    setTimeout(translate, 0);
 })();
