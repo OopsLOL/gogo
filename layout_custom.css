@@ -1,13 +1,13 @@
 @charset "utf-8";
-header {display: none !important;}
-footer {display: none !important;}
-.midFrame {height: 100% !important;}
-.top {display: none !important;}
+header { display: none !important; }
+footer { display: none !important; }
+.midFrame { height: 100% !important; }
+.top { display: none !important; }
 /*.container {background-color: rgba(255, 255, 255, 0) !important;}*/
-.user_login_btn {background: url('http://rawgit.com/OopsLOL/gogo/master/icon_old2.png') -14px -647px no-repeat !important;}
-.new_user_btn {background: url('http://rawgit.com/OopsLOL/gogo/master/icon_old2.png') -14px -767px no-repeat !important;}
-#upload {background: url('https://cdn.rawgit.com/OopsLOL/gogo/master/upload2.png') no-repeat !important;}
-.timeline textarea {display: block !important;}
-.timeline .line-copy {display: block !important;}
-#case_rate {display: block !important;}
-#view_sub {display: block !important;}
+.user_login_btn { background: url('https://rawgit.com/OopsLOL/gogo/master/icon_old2.png') -14px -647px no-repeat !important; }
+.new_user_btn { background: url('https://rawgit.com/OopsLOL/gogo/master/icon_old2.png') -14px -767px no-repeat !important; }
+#upload { background: url('https://cdn.rawgit.com/OopsLOL/gogo/master/upload2.png') no-repeat !important; }
+.timeline textarea { display: block !important; }
+.timeline .line-copy { display: block !important; }
+#case_rate { display: block !important; }
+#view_sub { display: block !important; }
