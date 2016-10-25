@@ -186,7 +186,7 @@ if (title == 'Ticket Lists - Play free online games') {
     }
     setTimeout(translate, 0);
 })();
-
+setTimeout(function(){
 if (window.location.hostname + window.location.pathname === "user.gogogame.com/Info/changepassword"){
        document.querySelector('input#oldPassword').placeholder = 'Введите старый пароль';
        document.querySelector('input#newPassword').placeholder = 'Введите новый пароль';
@@ -262,3 +262,4 @@ if (window.location.hostname + window.location.pathname === 'user.gogogame.com/t
        /*document.querySelector('input[name="city"]').placeholder = 'Город'; 
        document.querySelector('input[name="state"]').placeholder = 'Штат'; 
        document.querySelector('input[name="country"]').placeholder = 'Страна'; */
+},100);
